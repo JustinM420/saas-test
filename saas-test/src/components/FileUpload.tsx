@@ -86,4 +86,4 @@ const FileUpload = () => {
   )
 }
 
-export default FileUpload
+export default FileUpload;
