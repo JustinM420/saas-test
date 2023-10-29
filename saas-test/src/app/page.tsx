@@ -21,7 +21,8 @@ export default async function Home() {
     </div>
 
     <p className="max-w-xl mt-2 text-2xl text-slate-600">
-    One of You, Ten Thousand Times the Output!</p>
+    One of You, Ten Thousand Times the Output!
+    </p>
     <p className="max-w-xl mt-2 text-lg text-slate-600">Transform the way you work by cloning your skills with AI.
     </p>
     <p className="max-w-xl mt-1 text-lg text-slate-600">Do more in less time. 
