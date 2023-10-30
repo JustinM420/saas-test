@@ -8,7 +8,7 @@ type Props = {
 
 const ChatSideBar = ({chats, chatId}: Props) => {
   return (
-
+    <div>ChatSideBar</div>
   )
 
 }
