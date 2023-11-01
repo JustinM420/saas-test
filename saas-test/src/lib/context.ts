@@ -3,8 +3,8 @@ import { getEmbeddings } from "./embeddings";
 
 export async function getMatchesFromEmbeddings(embeddings: number[], filekey: string) {
     const pinecone = new Pinecone({
-        apiKey: process.env.PINECONE_ENVIRONMENT!,
-        environment: process.env.PINECONE_API_KEY!,
+        apiKey: process.env.PINECONE_API_KEY!,
+        environment: process.env.PINECONE_ENVIRONMENT!,
     })
     const index = await pinecone.Index('saas-test');
 
