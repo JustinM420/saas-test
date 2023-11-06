@@ -55,9 +55,14 @@ const ChatSideBar = ({chats, chatId}: Props) => {
                   <Link href="/">Source</Link>
                 </div>
                 {/* Stripe Button */}
-                <Button className="mt-2 text-white bg-slate-700" disabled={loading} onClick={handleSubscription}>
+                <Button className="mt-2 mr-2 text-white bg-slate-700" disabled={loading} onClick={handleSubscription}>
                   Upgrade to Pro!
                 </Button>
+                <Link href="/dashboard">
+                <Button className="mt-2 text-white bg-slate-700">
+                  Go to Dashboard
+                </Button>
+                </Link>
               </div>
     </div>
   );
