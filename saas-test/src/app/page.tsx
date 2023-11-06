@@ -31,14 +31,11 @@ export default async function Home() {
     </p>
    
           <div className="w-full mt-4">
-            {isAuth ? (
-            <FileUpload />):(
               <Link href="/sign-in">
               <Button>Login to get Started!
                 <LogInIcon className="w-4 h-4 ml-2"/>
               </Button>
               </Link>
-            )}
           </div>
         </div>
       </div>
